@@ -37,6 +37,7 @@
         >
         </a-asset-item>
         <!--> <a-asset-item id="realbell" src="realbell.glb"></a-asset-item> <-->
+        <video id="my-video" src="video.mp4" autoplay="true"></video>
         <a-asset-item id="slender" src="slender.glb"></a-asset-item> 
       </a-assets>
       <!--Barcode 30-->
@@ -48,7 +49,13 @@
         emitevents="true"
         cursor="fuse: false; rayOrigin: mouse;"
       >
-        <a-entity
+   <a-entity geometry="primitive: box" material="src: #my-video"></a-entity>
+
+
+
+
+        
+       <!--> <a-entity
           id="MenuItem"
           scale=" .2 .2 .2 "
           position="0 0 0"
@@ -58,6 +65,8 @@
           animation-mixer="loop: repeat"
           gesture-handler
         ></a-entity>
+      <-->
+        
       </a-marker>
       <!--Barcode 6-->
       <a-marker
