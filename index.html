@@ -14,7 +14,7 @@
       xr-mode-ui="enabled: false"
       loading-screen="enabled: false;"
       renderer="logarithmicDepthBuffer: true;"
-      arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_5_5; smooth: true;"
+      arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4_bch_13_9_3; smooth: true;"
       id="scene"
       
       gesture-detector
@@ -23,41 +23,48 @@
         <a-asset-item
           id="burger"
           src="cc0_hamburger.glb"
-        >
-        </a-asset-item>
+        ></a-asset-item>
         <a-asset-item
           id=""
           src=""
-        >
-        </a-asset-item>
+        ></a-asset-item>
         <a-asset-item
           id=""
           src=""
-        >
-        </a-asset-item>
+        ></a-asset-item>
         <a-asset-item
           id="taco"
           src="taco.glb"
-        >
-        </a-asset-item>
+        ></a-asset-item>
         <a-asset-item id="realbell" src="realbell.glb"></a-asset-item> 
-        <a-asset-item id="rack" src="https://cdn.glitch.global/0d836dff-41ab-4ade-8207-d43c27027a4e/rack.glb?v=1743696361822"></a-asset-item> 
+       
+
+        <!-- Blank Asset Template
+        <a-asset-item
+          id=""
+          src=""
+        ></a-asset-item>
+        -->
+
+
+
+
       </a-assets>
-      <!--Barcode 30-->
+      <!--Barcode 0-->
       <a-marker
         id="animated-marker"
         type="barcode"
-        value="30"
+        value="0"
         raycaster="objects: .clickable"
         emitevents="true"
         cursor="fuse: false; rayOrigin: mouse;"
       >
         <a-entity
           id="MenuItem"
-          scale="5 5 5"
+          scale=".25 .25 .25"
           position="0 0 0"
-          rotation="0 0 0"
-          gltf-model="#burger"
+          rotation="0 360 -40"
+          gltf-model="#realbell"
           class="clickable"
           animation-mixer="loop: repeat"
           gesture-handler
