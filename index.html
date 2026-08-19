@@ -20,22 +20,36 @@
       gesture-detector
     >
     <a-assets>
-       <a-asset-item id="oni" src="onigiri.glb"></a-asset-item>
+       <a-asset-item id="oni" src="oysters.glb"></a-asset-item>
+        <a-asset-item id="bowl" src="Zhajiangmian.glb"></a-asset-item>
 
 
     </a-assets>
 
       <a-marker type='barcode' value='6'>
         <a-entity
-          gltf-model="onigiri.glb"
+          gltf-model="oysters.glb"
+          scale=".2 .2 .2"
+          position="0 0 0"
+        >
+    </a-marker>
+      
+      <a-marker type="barcode" value="0">
+        <a-box position="0 0.5 0" 
+               material="src: #grid; color: yellow; transparent: true; opacity: 0.50;">
+        </a-box>
+    </a-marker>
+
+
+       <a-marker type='barcode' value='6'>
+        <a-entity
+          gltf-model="Zhajiangmian.glb"
           scale=".2 .2 .2"
           position="0 0 0"
         >
 
+
       
-       <a-marker type='barcode' value='7'>
-            <a-box position='0 0.5 0' color="yellow"></a-box>
-        </a-marker>
 
 
       
