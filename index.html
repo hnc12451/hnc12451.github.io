@@ -19,119 +19,26 @@
       
       gesture-detector
     >
-      <a-assets>
-        <a-asset-item id="burger" src="hamburger.glb"></a-asset-item>
-        <a-asset-item
-          id="oni"
-          src="onigiri.glb"
-        >
-        </a-asset-item>
-        <a-asset-item
-          id=""
-          src=""
-        >
-        </a-asset-item>
-        <a-asset-item
-          id="taco"
-          src="taco.glb"
-        >
-        </a-asset-item>
-        <!--> <a-asset-item id="realbell" src="realbell.glb"></a-asset-item> <-->
-        <video id="my-video" src="video.mp4" autoplay="true"></video>
-       <!--> <a-asset-item id="slender" src="slender.glb"></a-asset-item>  <-->
-      </a-assets>
-      <!--Barcode 30-->
-      <a-marker
-        id="animated-marker"
-        type="barcode"
-        value="30"
-        raycaster="objects: .clickable"
-        emitevents="true"
-        cursor="fuse: false; rayOrigin: mouse;"
-      >
- 
-       <a-entity
-          id="MenuItem"
-          scale=" .2 .2 .2 "
-          position="0 0 0"
-          rotation="0 0 0 "
-          gltf-model="#oni"
-          class="clickable"
-          animation-mixer="loop: repeat"
-          gesture-handler
-        ></a-entity>
-     
-        
-      </a-marker>
-      <!--Barcode 6-->
-      <a-marker
-        id="animated-marker1"
-        type="barcode"
-        value="6"
-        raycaster="objects: .clickable"
-        emitevents="true"
-        cursor="fuse: false; rayOrigin: mouse;"
-      >
+    <a-assets>
+       <a-asset-item id="oni" src="onigiri.glb"></a-asset-item>
+
+
+    </a-assets>
+
+      <a-marker type='barcode' value='6'>
         <a-entity
-          id="MenuItem1"
+          gltf-model="onigiri.glb"
           scale="1 1 1"
           position="0 0 0"
-          rotation="0 0 0"
-          gltf-model="#realbell"
-          class="clickable"
-          animation-mixer="loop: repeat"
-          gesture-handler
-        ></a-entity>
-      </a-marker>
-<!--Barcode 28-->
-      <a-marker
-        id="animated-marker2"
-        type="barcode"
-        value="28"
-        raycaster="objects: .clickable"
-        emitevents="true"
-        cursor="fuse: false; rayOrigin: mouse;"
-      >
-        <a-entity
-          id="MenuItem2"
-          scale=".5 .5 .5"
-          position="0 0 0"
-          rotation="0 0 0"
-          gltf-model="#rack"
-          class="clickable"
-          animation-mixer="loop: repeat"
-          gesture-handler
-        ></a-entity>
-       <!-- <a-entity
-          id="pricetext"
-          position="0 0 1"
-          rotation="-90 0 0"
-          animation="property: scale; to: 2 2 2; dir: alternate; loop: true"
-          text="color: white; align: center; value: COME BACK AND REFRESH THE PAGE AT 12:00pm 3/25/25; width: 10 "
         >
-        </a-entity> -->
-      </a-marker>
-<!--Barcode 9-->
-      <a-marker
-        id="animated-marker3"
-        type="barcode"
-        value="9"
-        raycaster="objects: .clickable"
-        emitevents="true"
-        cursor="fuse: false; rayOrigin: mouse;"
-      >
-        <a-entity
-          id="MenuItem3"
-          scale=".25 .25 .25"
-          position="0 0 0"
-          rotation="0 0 0"
-          gltf-model="#cake"
-          class="clickable"
-          animation-mixer="loop: repeat"
-          gesture-handler
-        ></a-entity>
-      </a-marker>
 
+      
+       <a-marker type='barcode' value='7'>
+            <a-box position='0 0.5 0' color="yellow"></a-box>
+        </a-marker>
+
+
+      
       <a-entity camera></a-entity>
     </a-scene>
   </body>
