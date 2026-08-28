@@ -1,0 +1,324 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        20.72272491455078,
+        -5.4946088790893555,
+        17.31522560119629
+      ],
+      "min": [
+        7.953108787536621,
+        -16.181440353393555,
+        -2.1548590660095215
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999687671661377,
+        0.9999946355819702,
+        0.9999880194664001
+      ],
+      "min": [
+        -0.9999901056289673,
+        -0.9999971389770508,
+        -0.9999908804893494
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999353289604187,
+        0.9999969601631165,
+        0.9999731779098511,
+        1.0
+      ],
+      "min": [
+        -0.999954879283905,
+        -0.9999842047691345,
+        -0.9999951720237732,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9960960149765015,
+        0.9994649887084961
+      ],
+      "min": [
+        0.003269999986514449,
+        0.003575999988242984
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 343905,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 53294,
+      "max": [
+        20.732389450073242,
+        -9.036511421203613,
+        17.102170944213867
+      ],
+      "min": [
+        8.025487899780273,
+        -16.8457088470459,
+        -2.192624092102051
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2212296,
+      "componentType": 5126,
+      "count": 53294,
+      "max": [
+        0.9999687671661377,
+        0.9999750256538391,
+        0.9999880194664001
+      ],
+      "min": [
+        -0.999995768070221,
+        -0.9999971389770508,
+        -0.9999937415122986
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 53294,
+      "max": [
+        0.9999966621398926,
+        0.9999821782112122,
+        0.9999870657920837,
+        1.0
+      ],
+      "min": [
+        -0.9999643564224243,
+        -0.9999852180480957,
+        -0.9999735355377197,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 53294,
+      "max": [
+        0.9942409992218018,
+        1.0079439878463745
+      ],
+      "min": [
+        0.0010420000180602074,
+        0.003341000061482191
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1375620,
+      "componentType": 5125,
+      "count": 256095,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Minneapolis Institute of Art (https://sketchfab.com/artsmia)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/seated-bodhisattva-guanyin-12th-c-ce-2c865894453743a49f8e82d57e4f0a8d",
+      "title": "Seated bodhisattva Guanyin, 12th C. CE"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2400000,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 950608,
+      "byteOffset": 2400000,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2851824,
+      "byteOffset": 3350608,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1901216,
+      "byteOffset": 6202432,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 8103648,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/170511_mia337_005788_603_200Kfaces_OBJ4_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/170511_mia337_005788_603_200Kfaces_OBJ4_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "170511_mia337_005788_603_200Kfaces_OBJ4",
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.8370807926829268
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.0906554090123528,
+        -1.0260246568378664e-18,
+        0.004620804262207956,
+        0.0,
+        0.004620804262207956,
+        2.0129544478465e-17,
+        -0.0906554090123528,
+        0.0,
+        0.0,
+        0.0907730981707573,
+        2.0155676721146885e-17,
+        0.0,
+        0.5872114896774292,
+        1.5890297062332292e-16,
+        -0.715635359287262,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "170511_mia337_005788_603_200Kfaces_OBJ4.OBJ.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
